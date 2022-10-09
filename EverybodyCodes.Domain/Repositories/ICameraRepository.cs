@@ -4,5 +4,6 @@ namespace EverybodyCodes.Domain.Repositories
 {
     public interface ICameraRepository : IBaseRepository<Camera>
     {
+
     }
 }

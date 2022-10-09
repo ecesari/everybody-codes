@@ -1,6 +1,6 @@
 ﻿namespace EverybodyCodes.Application.Models.Camera
 {
-    public class CameraInsertCommandModel
+    public class CameraInsertCommand
     {
         public string Name { get; set; }
         public double Latitude { get; set; }
