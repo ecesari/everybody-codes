@@ -12,10 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Common\Exceptions\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\EverybodyCodes.Domain\EverybodyCodes.Domain.csproj" />
   </ItemGroup>
 

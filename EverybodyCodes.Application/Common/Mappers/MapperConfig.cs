@@ -4,7 +4,7 @@ using System.Text.RegularExpressions;
 
 namespace EverybodyCodes.Application.Common.Mappers
 {
-    internal class MapperConfig : Profile
+    public class MapperConfig : Profile
     {
         public MapperConfig()
         {
