@@ -6,7 +6,7 @@ using EverybodyCodes.Domain.Specifications.CameraSpecifications;
 
 namespace EverybodyCodes.Application.Services
 {
-    internal class CameraService : ICameraService
+    public class CameraService : ICameraService
     {
 
         private readonly ICameraRepository cameraRepository;

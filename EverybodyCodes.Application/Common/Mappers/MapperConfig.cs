@@ -12,7 +12,8 @@ namespace EverybodyCodes.Application.Common.Mappers
             CreateMap<Domain.Entities.Camera, CameraViewModel>()
                   .AfterMap((entity, vm) => vm.Code = Regex.Match(entity.Name.Split(" ").FirstOrDefault(), @"\d+")?.Value);
 
-            CreateMap<CameraInsertCommand, Domain.Entities.Camera>();
+            CreateMap<CameraInsertCommand, Domain.Entities.Camera>()
+                .ForMember(dest => dest.Name, opt => opt.MapFrom(src => src.Camera));
         }
     }
 }

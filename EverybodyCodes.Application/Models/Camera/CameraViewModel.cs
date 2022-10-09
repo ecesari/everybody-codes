@@ -1,6 +1,6 @@
 ﻿namespace EverybodyCodes.Application.Camera
 {
-    internal class CameraViewModel
+    public class CameraViewModel
     {
         public string Code { get; set; }
         public string Name { get; set; }
