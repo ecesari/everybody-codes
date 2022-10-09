@@ -1,11 +1,12 @@
 using EverybodyCodes.Domain.Entities;
+using System;
 using Xunit;
 
 namespace EverybodyCodes.Domain.Test
 {
     public class CameraTests
     {
-        private int _id = 501;
+        private Guid _id = Guid.NewGuid();
         private string _name = "UTR-CM-501 Neude rijbaan voor Postkantoor";
         private double _longitude = 52.093421;
         private double _latitude = 5.118278;

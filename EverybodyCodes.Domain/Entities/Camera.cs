@@ -7,7 +7,7 @@
 		public double Longitude { get; set; }
 
 
-		public static Camera Create(int id, string name, double latitude, double longitude)
+		public static Camera Create(Guid id, string name, double latitude, double longitude)
 		{
 			return new Camera
 			{

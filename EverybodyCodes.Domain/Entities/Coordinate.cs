@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EverybodyCodes.Domain.Entities
 {
-    public class Location
+    public class Coordinate
     {
         public double Latitude { get; set; }
         public double Longitude { get; set; }

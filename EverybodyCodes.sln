@@ -7,19 +7,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F8F803E9-0B7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7340542C-482C-4FC5-84B3-32C6609721B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EverybodyCodes.Domain", "EverybodyCodes.Domain\EverybodyCodes.Domain.csproj", "{370AA02D-4C30-4125-8D3E-3A5AD5FEEEC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EverybodyCodes.Domain", "EverybodyCodes.Domain\EverybodyCodes.Domain.csproj", "{370AA02D-4C30-4125-8D3E-3A5AD5FEEEC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EverybodyCodes.Application", "EverybodyCodes.Application\EverybodyCodes.Application.csproj", "{C9EFB1EB-4BE6-4CC3-9B64-CDA6E87BB029}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EverybodyCodes.Application", "EverybodyCodes.Application\EverybodyCodes.Application.csproj", "{C9EFB1EB-4BE6-4CC3-9B64-CDA6E87BB029}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EverybodyCodes.Infrastructure", "EverybodyCodes.Infrastructure\EverybodyCodes.Infrastructure.csproj", "{31E38C00-AEA3-492C-90FD-1B76739E715E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EverybodyCodes.Infrastructure", "EverybodyCodes.Infrastructure\EverybodyCodes.Infrastructure.csproj", "{31E38C00-AEA3-492C-90FD-1B76739E715E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EverybodyCodes.WebApi", "EverybodyCodes.API\EverybodyCodes.WebApi.csproj", "{E4B2F2A9-65C5-453A-98F0-70D36F436E5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EverybodyCodes.WebApi", "EverybodyCodes.API\EverybodyCodes.WebApi.csproj", "{E4B2F2A9-65C5-453A-98F0-70D36F436E5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EverybodyCodes.Application.Test", "EverybodyCodes.Application.Test\EverybodyCodes.Application.Test.csproj", "{86ADA68D-E913-4849-9409-EDBB08FD26C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EverybodyCodes.Application.Test", "EverybodyCodes.Application.Test\EverybodyCodes.Application.Test.csproj", "{86ADA68D-E913-4849-9409-EDBB08FD26C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EverybodyCodes.Domain.UnitTest", "EverybodyCodes.Domain.Test\EverybodyCodes.Domain.UnitTest.csproj", "{3FB9EFDE-6E3C-406E-86FA-3CC6160CE163}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EverybodyCodes.Domain.Test", "EverybodyCodes.Domain.Test\EverybodyCodes.Domain.Test.csproj", "{3FB9EFDE-6E3C-406E-86FA-3CC6160CE163}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EverybodyCodes.Infrastructure.Test", "EverybodyCodes.Infrastructure.Test\EverybodyCodes.Infrastructure.Test.csproj", "{9C85B4EB-8785-4117-A947-05AD8600F4CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EverybodyCodes.Infrastructure.Test", "EverybodyCodes.Infrastructure.Test\EverybodyCodes.Infrastructure.Test.csproj", "{9C85B4EB-8785-4117-A947-05AD8600F4CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
