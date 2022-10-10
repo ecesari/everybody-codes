@@ -1,7 +1,7 @@
 ﻿using EverybodyCodes.Application.Camera;
 using EverybodyCodes.Application.Models.Camera;
 
-namespace EverybodyCodes.Application.Services
+namespace EverybodyCodes.Application.Common.Interfaces
 {
     public interface ICameraService
     {

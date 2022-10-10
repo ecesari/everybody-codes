@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using EverybodyCodes.Application.Camera;
+using EverybodyCodes.Application.Common.Interfaces;
 using EverybodyCodes.Application.Models.Camera;
 using EverybodyCodes.Domain.Repositories;
 using EverybodyCodes.Domain.Specifications.CameraSpecifications;

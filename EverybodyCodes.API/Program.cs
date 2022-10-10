@@ -1,8 +1,8 @@
 using AutoMapper;
+using EverybodyCodes.Application.Common.Interfaces;
 using EverybodyCodes.Application.Common.Mappers;
 using EverybodyCodes.Application.Models.Camera;
 using EverybodyCodes.Application.Services;
-using EverybodyCodes.Domain.Entities;
 using EverybodyCodes.Domain.Repositories;
 using EverybodyCodes.Infrastructure;
 using EverybodyCodes.Infrastructure.Csv;
@@ -10,7 +10,16 @@ using EverybodyCodes.Infrastructure.Repository;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+                      builder =>
+                      {
+                          builder.WithOrigins("http://localhost:8080");
+                      });
+});
 
 builder.Services.AddControllers();
 
@@ -67,5 +76,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.UseCors(MyAllowSpecificOrigins);
 
 app.Run();

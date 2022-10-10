@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using EverybodyCodes.Application.Services;
 using EverybodyCodes.Application.Camera;
 using Serilog;
+using EverybodyCodes.Application.Common.Interfaces;
 
 namespace EverybodyCodes.WebApi.Controllers
 {
